@@ -1,0 +1,16 @@
+.taskshow-content {
+  width: 50%;
+}
+
+.card-heading {
+  display: flex;
+  justify-content: space-between;
+  p {
+    font-weight: 600;
+  }
+}
+
+.taskshow-list {
+  max-height: 320px;
+  overflow-y: scroll;
+}

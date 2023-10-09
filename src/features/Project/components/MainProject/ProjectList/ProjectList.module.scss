@@ -1,0 +1,19 @@
+.project-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.wrapper-list {
+  height: 480px;
+  overflow-y: scroll;
+}
+
+.loadmore-btn {
+  margin: 20px 0 0 10px;
+}
+
+.wrapper-btn {
+  display: flex;
+  justify-content: center;
+}

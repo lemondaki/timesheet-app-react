@@ -1,0 +1,54 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-filed-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  height: 60px;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  span {
+    width: 200px;
+    justify-self: flex-start;
+  }
+}
+
+.form-filed-checkbox {
+  display: grid;
+  align-items: center;
+  gap: 20px;
+  height: 60px;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  grid-template-columns: 200px 600px;
+}
+
+.wrapper-form-date {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input-select-client {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper-filed-render {
+  display: flex;
+  gap: 20px;
+  p {
+    text-transform: capitalize;
+  }
+}
+
+.btn-next {
+  margin-top: 24;
+  display: flex;
+  justify-content: flex-end;
+}

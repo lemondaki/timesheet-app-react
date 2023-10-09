@@ -1,0 +1,27 @@
+form {
+  display: flex;
+  gap: 25px;
+  margin: 25px 0 0;
+}
+
+.modal {
+  min-height: 340px;
+}
+
+.wrap-datepicker {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+footer {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.datepicker {
+  width: 300px;
+}

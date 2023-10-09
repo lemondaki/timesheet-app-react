@@ -1,0 +1,112 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  height: 100vh;
+}
+
+.header-card-action {
+  .ant-select-selector {
+    display: flex;
+    align-items: center;
+    height: 50px !important;
+    width: 240px !important;
+    line-height: 50px !important;
+  }
+
+  .ant-input-affix-wrapper,
+  .ant-input-search-button {
+    padding: 10px !important;
+    height: 50px !important;
+  }
+}
+
+.project-lists {
+  .ant-card {
+    margin: 30px 20px 0 !important;
+  }
+
+  .ant-card-body {
+    padding: 10px;
+    background-color: #d3d3d3;
+    border-radius: 8px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.main-view .ant-modal-content {
+  padding: 20px 20px 20px 20px;
+  height: 630px;
+  overflow-y: scroll;
+}
+
+.loading {
+  width: 100%;
+}
+
+.card-header-project .ant-card-body {
+  padding: 18px 20px;
+}
+
+.wrapper-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-content-form {
+  display: flex;
+  justify-content: space-between;
+  min-height: 400px;
+}
+
+.wrapper-button-footer-form {
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-team-show .ant-checkbox-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.error-field {
+  color: red;
+}
+
+.custom-time .ant-modal-footer {
+  display: none;
+}
+
+.custom-time .ant-modal-body {
+  min-height: 235px;
+}
+
+.main-view .ant-modal-footer {
+  display: none;
+}
+
+.view-tab {
+  .ant-pagination {
+    display: none;
+  }
+}
+
+.custom-input-field .ant-picker-suffix,
+.custom-input-field .ant-select-arrow {
+  width: 10px;
+}
+
+.custom-input-field .ant-picker-clear {
+  width: 20px;
+  margin-right: 20px;
+}
+.custom-input-field .anticon-close-circle {
+  width: 20px;
+}

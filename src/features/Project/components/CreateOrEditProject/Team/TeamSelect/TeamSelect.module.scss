@@ -1,0 +1,28 @@
+.teamselect-collapse {
+  width: 40%;
+}
+
+.teamselect-header {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.search-box {
+  width: 200px;
+}
+
+.teamselect-list {
+  max-height: 280px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.select-position {
+  width: 120px;
+}
+
+.wrapper-space {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50px 320px;
+}

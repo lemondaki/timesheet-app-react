@@ -1,0 +1,29 @@
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  height: 54px;
+  margin: 10px 0;
+  padding: 0 24px;
+  background-color: #f5f5f5;
+}
+
+.wrapper-left {
+  display: flex;
+  gap: 10px;
+}
+
+.taskselect-content {
+  width: 50%;
+}
+
+.taskselect-heading {
+  font-weight: 600;
+}
+
+.taskselect-list {
+  max-height: 320px;
+  overflow-y: scroll;
+}
