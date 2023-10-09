@@ -1,10 +1,14 @@
-# Timesheet App 
+# Timesheet App
+
 0. 0. Install and prepare
+
 ```
 yarn
 
 yarn prepare
 ```
+
+## Demo app: https://timesheet-app-react-lemondaki.netlify.app/
 
 # Getting Started with Create React App
 
