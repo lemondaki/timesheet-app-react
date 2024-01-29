@@ -1,6 +1,6 @@
 import axios from 'axios';
 const instanceAxios = axios.create({
-  baseURL: 'http://training-api-timesheet.nccsoft.vn/api/'
+  baseURL: 'https://training-api-timesheet.nccsoft.vn/api/'
 });
 
 instanceAxios.interceptors.request.use((config) => {

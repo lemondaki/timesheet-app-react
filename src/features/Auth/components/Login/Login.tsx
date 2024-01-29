@@ -45,7 +45,7 @@ const Login = (): JSX.Element => {
         dispatch(setLoading(false));
       })
       .catch((error) => {
-        toast.error(error.response.data.error.details);
+        toast.error(error.response?.data.error.details);
         dispatch(setLoading(false));
       });
   };
